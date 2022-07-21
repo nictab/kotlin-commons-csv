@@ -3,15 +3,13 @@ package io.nictab.commons.csv
 import io.nictab.commons.csv.annotations.CSVElement
 import io.nictab.commons.csv.annotations.CSVTransformer
 import io.nictab.commons.csv.exceptions.CSVExceptions
-import io.nictab.commons.csv.exceptions.InvalidReceiverTypeException
-import io.nictab.commons.csv.exceptions.InvalidTransformerException
 import kotlin.reflect.KCallable
 import kotlin.reflect.KClass
 import kotlin.reflect.KMutableProperty1
 import kotlin.reflect.full.*
 
 
-class CSVFile(val csvData: String, val separator: String) {
+class CSVFile(private val csvData: String, private val separator: String) {
 
     companion object {
         private val LINE_SEPARATOR = System.lineSeparator()
