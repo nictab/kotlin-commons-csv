@@ -1,8 +1,9 @@
-package io.nictab.commons.csv.model
+package io.nictab.commons.csv.test.model.element
 
 import io.nictab.commons.csv.annotations.CSVElement
 import io.nictab.commons.csv.annotations.CSVField
 import io.nictab.commons.csv.annotations.CSVTransformer
+import io.nictab.commons.csv.test.model.Name
 import kotlin.properties.Delegates
 
 @CSVElement
