@@ -1,4 +1,4 @@
-package io.nictab.commons.csv.exceptions
+package com.github.nictab.commons.csv.exceptions
 
 object CSVExceptions {
 

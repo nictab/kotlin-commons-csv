@@ -1,4 +1,4 @@
-package io.nictab.commons.csv.annotations
+package com.github.nictab.commons.csv.annotations
 
 @Target(AnnotationTarget.FUNCTION, AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.RUNTIME)

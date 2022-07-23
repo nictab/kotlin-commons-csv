@@ -1,8 +1,8 @@
-package io.nictab.commons.csv
+package com.github.nictab.commons.csv
 
-import io.nictab.commons.csv.annotations.CSVElement
-import io.nictab.commons.csv.annotations.CSVTransformer
-import io.nictab.commons.csv.exceptions.CSVExceptions
+import com.github.nictab.commons.csv.annotations.CSVElement
+import com.github.nictab.commons.csv.annotations.CSVTransformer
+import com.github.nictab.commons.csv.exceptions.CSVExceptions
 import kotlin.reflect.KCallable
 import kotlin.reflect.KClass
 import kotlin.reflect.KMutableProperty1

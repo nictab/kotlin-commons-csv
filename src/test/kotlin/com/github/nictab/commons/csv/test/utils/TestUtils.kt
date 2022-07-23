@@ -1,4 +1,4 @@
-package io.nictab.commons.csv.test.utils
+package com.github.nictab.commons.csv.test.utils
 
 import java.io.BufferedReader
 import java.io.FileReader

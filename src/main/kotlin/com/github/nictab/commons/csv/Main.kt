@@ -1,6 +1,6 @@
-package io.nictab.commons.csv
+package com.github.nictab.commons.csv
 
-import io.nictab.commons.csv.model.PersonCSV
+import com.github.nictab.commons.csv.model.PersonCSV
 import java.io.BufferedReader
 import java.io.FileReader
 

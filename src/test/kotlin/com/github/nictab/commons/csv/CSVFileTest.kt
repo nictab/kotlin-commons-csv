@@ -1,8 +1,8 @@
-package io.nictab.commons.csv
+package com.github.nictab.commons.csv
 
-import io.nictab.commons.csv.test.model.Name
-import io.nictab.commons.csv.test.model.element.PersonCSV
-import io.nictab.commons.csv.test.utils.TestUtils
+import com.github.nictab.commons.csv.test.model.Name
+import com.github.nictab.commons.csv.test.model.element.PersonCSV
+import com.github.nictab.commons.csv.test.utils.TestUtils
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
